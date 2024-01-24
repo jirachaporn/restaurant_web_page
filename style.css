@@ -1,0 +1,434 @@
+*{
+    font-size: 1rem;
+}
+
+html{
+    font-size: calc(60% + 0.8vmin);
+}
+
+.nav-sec {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.nav-sec h1 {
+    border: 3px solid white;
+    font-size: 2.2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sec-img-bg {
+    background-image: url('img/1\ copy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+}
+
+.nev-div h1{
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.nev-div h2{
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.4rem;
+    max-height: 1.5rem;
+}
+
+.div-img{
+    background-color: black;
+    height: 150px;
+}
+
+.div-contwo .div-top{
+    border: 3px solid rgb(0, 0, 0) ;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 40px
+}
+
+.div-below .div-below1 img,
+.div-below .div-below2 img,
+.div-below .div-below3 img{
+    width: 50px;
+    height: 50px;
+}
+
+.div-below .div-below1,
+.div-below .div-below2,
+.div-below .div-below3{
+    width: 300px;
+}
+
+
+.div-below .div-belowwww{
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.div-conthree{
+    position: relative;
+}
+
+.div-conthree  img{
+    width: 99vw;
+    height: 950px;
+    object-fit: cover; 
+    filter: brightness(50%);
+    
+}
+
+.div-conthree .div-topthree{
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto ;
+    padding: 20px;
+    position: absolute ;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div-conthree .div-Lthree {
+    position: absolute ;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    max-width: 100vw ;
+}
+
+.div-conthree .div-Rthree {
+    position: absolute ;
+    top: 58%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    max-width: 100vw ;
+}
+
+.div-conthree .div-Rthree .Rthree-bg h6{
+    background-color: #212121 ;
+}
+
+.div-conthree .div-Rthree .Rthree-bg p{
+    background-color: #212121 ;
+}
+
+.div-conthree .div-total{
+    position: absolute ;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4 , auto) ;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.div-conthree .div-total .div-1,
+.div-conthree .div-total .div-2,
+.div-conthree .div-total .div-3,
+.div-conthree .div-total .div-4 {
+    font-size: 1.5rem;
+    padding-right: 100px; 
+    margin-left: 100px; 
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+.bg{
+    background-color: #f3f3f3;
+    height: 125px;
+}
+
+.div-confour{
+    background-color: #f3f3f3;
+}
+
+.div-confour .div-topfour{
+    border: 3px solid rgb(0, 0, 0) ;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px
+}
+
+.div-belowfour .div-belowwww .div-below1 img,
+.div-belowfour .div-belowwww .div-below2 img,
+.div-belowfour .div-belowwww .div-below3 img{
+    width: 80%;
+    height:60%;
+    object-fit: cover; 
+}
+
+.div-belowfour .div-belowwww .div-below1 ,
+.div-belowfour .div-belowwww .div-below2,
+.div-belowfour .div-belowwww .div-below3{
+    text-align: center;
+    width: 300px;
+}
+
+.div-belowfour .div-belowwww .div-below1 .img-coun,
+.div-belowfour .div-belowwww .div-below2 .img-coun,
+.div-belowfour .div-belowwww .div-below3 .img-coun{
+    width: 20%;
+    height:10%;
+    object-fit: cover;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.div-belowfour .div-belowwww{
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    
+}
+
+.div-confive .div-topfive{
+    border: 3px solid rgb(0, 0, 0) ;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 40px
+}
+
+.div-belowfive .div-belowwww{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.div-confive .div-belowfive{
+    display: flex;
+    align-items: center;
+   
+}
+
+.div-confive .div-belowfive .div-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    background-color: white;
+    width: 1500px;
+    height: 700px;
+}
+
+.div-confive .div-belowfive .div-img img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover; 
+}
+
+.div-confive .div-textcounfive{
+    width: 1000px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div-confive .div-bottomfive {
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.div-confive .div-bottomfive button{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 3px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.div-consix .div-topsix{
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto ;
+    padding: 20px;
+    position: absolute ;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div-consix{
+    position: relative;
+}
+
+.div-consix  img{
+    width: 99vw;
+    height: 1000px;
+    object-fit: cover; 
+    filter: brightness(30%);
+}
+
+.div-consix .div-bottomsix1{
+    border: 3px solid rgb(255, 255, 255);
+    color: #ffffff;
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto ;
+    padding: 20px;
+    position: absolute ;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.div-consix .div-bottomsix2{
+    border: 3px solid rgb(255, 255, 255);
+    color: #ffffff;
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto ;
+    padding: 20px;
+    position: absolute ;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.div-consix .div-bottomsix3{
+    border: 3px solid rgb(255, 255, 255);
+    color: #ffffff;
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto ;
+    padding: 20px;
+    position: absolute ;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.div-consix .div-bottomsix1 button,
+.div-consix .div-bottomsix2 button,
+.div-consix .div-bottomsix3 button{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: transparent;
+    color: #ffffff;
+    border: 3px solid white;
+    padding: 5% 20%;
+    font-size: 0.8rem;
+}
+
+.div-conseven .div-topseven{
+    border: 3px solid rgb(0, 0, 0) ;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 40px
+}
+
+.div-conseven .div-bottomseven .input input{
+    margin-top: 3%;
+    width: 300px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.div-conseven .div-bottomseven .inputMessage {
+    margin-top: 1%;
+    width: 910px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.div-conseven .div-bottomseven{
+    text-align: center;
+}
+
+.div-conseven .button{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.div-conseven .button button{
+    font-size: 0.8rem;
+    margin:0 auto;
+    padding: 10px 150px;
+    font-size: 0.8rem;
+}
+
+.div-coneight .div-topeight{
+    border: 3px solid rgb(0, 0, 0) ;
+    border-right: none;
+    text-align: center;
+    width: 450px;
+    max-width: 100%;
+    padding: 40px
+}
+
+.div-coneight .div-topeight1{
+    border: 3px solid rgb(0, 0, 0) ;
+    text-align: center;
+    width: 450px;
+    max-width: 100%;
+    padding: 40px
+}
+.div-coneight .div-topeight img,
+.div-coneight .div-topeight1 img{
+   height: 50px;
+   margin: 5px;
+}
+
+.div-bottomeight h5{
+    border:3px solid black;
+    margin:0 auto;
+    width: 300px;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.div-icon img{
+    width: 30px;
+}
+
+.div-icon{
+    margin: 20px;
+    margin-bottom: 3%;
+    text-align: center;
+}
